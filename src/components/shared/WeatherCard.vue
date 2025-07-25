@@ -79,7 +79,7 @@ const props = defineProps<{
   error: string | null;
 }>();
 
-const emit = defineEmits<{
+defineEmits<{
   (e: 'remove', cityName: string): void;
 }>();
 
